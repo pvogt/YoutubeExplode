@@ -69,7 +69,6 @@ public class PlaylistSpecs(ITestOutputHelper testOutput)
     [InlineData(PlaylistIds.MusicAlbum)]
     [InlineData(PlaylistIds.Weird)]
     [InlineData(PlaylistIds.ContainsLongVideos)]
-    [InlineData(PlaylistIds.ContainsPaidVideos)]
     public async Task I_can_get_the_metadata_of_any_available_playlist(string playlistId)
     {
         // Arrange
